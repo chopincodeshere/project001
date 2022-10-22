@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Freehand&display=swap');
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    color: #000;
+    padding: 7px 1rem;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    height: 6rem;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    opacity: 1;
+    background-color: #fff;
+    width: 100%;
+}
+
+.logo-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.company-title {
+    font-family: 'Freehand', cursive;
+}
+
+.logo-container > img {
+    border-radius: 50%;
+    height: 5rem;
+    width: 5rem;
+}
+
+.links {
+    display: flex;
+    justify-content: space-between;
+    height: 3rem;
+    align-items: center;
+    width: 20rem;
+}
+
+.links a {
+    font-size: larger;
+    text-decoration: none;
+    color: #000;
+}
